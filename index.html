@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluenodes Test de Velocidad Internet</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bluenodes Test de Velocidad.</h1>
+        <main>
+            <section class="test-controls">
+                <button id="startTest" class="btn-primary">Iniciar Test</button>
+            </section>
+            <section id="results" class="results-container">
+                <div class="result-item">
+                    <h2>Velocidad de Descarga</h2>
+                    <div class="speed-display">
+                        <span id="downloadSpeed" class="speed-value">-</span>
+                        <span class="speed-unit">Mbps</span>
+                    </div>
+                </div>
+                <div class="result-item">
+                    <h2>Velocidad de Subida</h2>
+                    <div class="speed-display">
+                        <span id="uploadSpeed" class="speed-value">-</span>
+                        <span class="speed-unit">Mbps</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Bluenodes Hosting LLC Net. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
